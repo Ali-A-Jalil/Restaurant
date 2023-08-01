@@ -1,0 +1,370 @@
+/* Home  */
+.container-home {
+    background-image: url(../IMG/cover.jpeg);
+    color: rgb(255, 255, 255);
+    height: 100vh;
+    background-size: 100% 100%;
+    text-align: center;
+    opacity: 0.8;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.navbar-home {
+    background-color: rgba(58, 64, 64, 0.19);
+    height: 70px;
+    z-index: 999999999;
+}
+
+.fnova-restorant {
+    display: inline-block;
+}
+
+.restorant-logo {
+    display: inline-block;
+    text-align: left;
+}
+
+.snova-restorant {
+    display: inline-block;
+    padding-left: 400px;
+}
+
+.restorant-home {
+    display: inline-block;
+    color: white;
+}
+
+.restorant-about {
+    display: inline-block;
+    color: white;
+    padding-left: 65px;
+}
+
+.restorant-connect {
+    display: inline-block;
+    padding-left: 65px;
+    color: white;
+}
+
+.restorant-book {
+    display: inline-block;
+    padding-left: 65px;
+    color: white;
+}
+
+.restorant-menu {
+    display: inline-block;
+    padding-left: 65px;
+    color: white;
+}
+
+.img-logo {
+    height: 40px;
+}
+
+#nova:hover {
+    background-color: #7b3c17;
+    font-family: 'Architects Daughter', cursive;
+}
+
+.steak-img {
+    width: 150px;
+}
+
+.masterHome {
+    margin-top: 170px;
+    font-family: "Shadows Into Light";
+    font-size: x-large;
+}
+
+.happiness {
+    font-family: "Shadows Into Light";
+    font-size: x-large;
+}
+
+.about-sub {
+    text-align: center;
+    padding-top: 15px;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+/* About Us */
+
+
+.about-us {
+    height: 100vh;
+    width: 100%;
+    padding: 90px 0;
+    background: #ddd;
+}
+
+.pic {
+    height: auto;
+    width: 302px;
+}
+
+.about {
+    width: 1130px;
+    max-width: 85%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.text {
+    width: 540px;
+}
+
+.text h2 {
+    font-size: 90px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #7b3c17;
+}
+
+.text h5 {
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+span {
+    color: #7b3c17;
+}
+
+.text p {
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 1px;
+}
+
+.data {
+    margin-top: 30px;
+}
+
+.hire {
+    font-size: 18px;
+    background: #7b3c17;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    padding: 8px 25px;
+    border-radius: 6px;
+    transition: 0.5s;
+}
+
+.hire:hover {
+    background: #000;
+    border: 1px solid #7b3c17;
+}
+
+
+
+
+/* Connect With Us */
+
+
+.landing_page{
+    background-image: url(../IMG/shrips.jpeg);
+    height: 100vh;
+    background-size: 100% 100%;
+    opacity: 0.8;
+}
+
+.bigContainer{
+    text-align: center;
+}
+.connectForUs{
+    background-color: #000000b3;
+    color: white;
+    width: 350px;
+    display: inline-block;
+    margin-right: 70px;
+    text-align: left;
+
+}
+.connectForm{
+    background-color: #0000007f;
+    color: white;
+    width: 400px;
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 50px;
+}
+
+.textSupConnect{
+    font-size: xx-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 10px;
+}
+.textpub{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 10px;
+}
+
+.icons-container{
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+.share-icon{
+    margin: 25px;
+}
+.formUsConnect{
+    background-color: #000000bc;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+input{
+    width: 90%;
+    margin-top: 10px;
+    height: 35px;
+    border-radius: 5px;
+    border-color: #7b3c17;
+    background-color: #000;
+}
+
+textarea{
+    width: 90%;
+    height: 100px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border-color: #7b3c17;
+    background-color: #000;
+}
+.submit-btn{
+    width: 95%;
+    height: 35px;
+    margin-top: 10px;
+    background-color: #7b3c17;
+    border-color: #7b3c17;
+    color: white;
+    margin-bottom: 10px;
+    font-size: larger;
+}
+
+/* Menu */
+.menuHeader{
+    background-image: url(../IMG/muneHeader.jpeg);
+    height: 25vh;
+    background-size: 100% 100%;
+    opacity: 0.8;
+}
+.menu-title-head{
+    margin: 5px auto;
+    background-color: #dddddd2d;
+    text-align: center;
+}
+.header-name{
+    font-weight: 700;
+    color: #000;
+    padding-top: 10px;
+    line-height: 45px;
+    font-size: 35px;
+}
+.title-para{
+    font-size: 17px;
+    line-height: 28px;
+    margin: 10px 0px 0px;
+    color: #777;
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom: 10px;
+}
+
+.menu-section{
+    background-color: #dddddd2d;
+}
+.menu-section-title{
+    line-height: 35px;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #222;
+    margin-left: 30px ;
+    padding-top: 10px;
+}
+
+.itemName{
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    line-height: 30px;
+    color: #444;
+    margin-left: 30px ;
+}
+
+.itemDolar{
+    font-size: 1.1em;
+    color: #7b3c17;
+    font-weight: 500;
+    line-height: 1.2;
+}
+.itemTitle {
+    display: inline-block;
+}
+.itemPrice{
+    display: inline-block;
+    margin-left: 200px;
+}
+.para{
+    font-size: 16px;
+    line-height: 26px;
+    font-family: 'Open Sans', sans-serif;
+    color: #777;
+    margin-left: 30px;
+    border-bottom: #777;
+    padding-bottom: 10px;
+}
+.menu-item{
+    display: inline-block;
+    margin-left: 45px;
+    margin-right: 55px;
+}
+.services{
+    margin-top: 20px;
+    background-color: #dddddd2d;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.imgGallery{
+    width: 100%;
+    border-radius: 10px; 
+}
+
+.gallery-boxone{
+    display: inline-block;
+    width: 350px;
+    margin-left: 40px;
+    margin-right: 30px;
+}
+
+.gallery-boxtwo{
+    display: inline-block;
+    width: 350px;
+    margin-left: 30px;
+}
+.gallery-boxthree{
+    display: inline-block;
+    width: 350px;
+    margin-left: 60px;
+}
+
+.gallery-text{
+    font-size: 22px;
+    line-height: 32px;
+    color: #444;
+    display: inline-block;
+    font-weight: 600;
+    font-family: 'Playfair Display', serif;
+    margin-top: 5px;
+}
+.paraText{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    color: #777;
+    margin-top: 0px;
+}
